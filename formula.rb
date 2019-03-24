@@ -4,6 +4,16 @@ class Mergepbx < Formula
   url "https://github.com/ismetanin/mergepbx/archive/v0.11.tar.gz"
   sha256 "868d4c181ef4ab65819e3fd16c0a7d669e8efbe21220d11454f94757308eafb7"
 
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "868d4c181ef4ab65819e3fd16c0a7d669e8efbe21220d11454f94757308eafb7" => :mojave
+    sha256 "868d4c181ef4ab65819e3fd16c0a7d669e8efbe21220d11454f94757308eafb7" => :high_sierra
+    sha256 "868d4c181ef4ab65819e3fd16c0a7d669e8efbe21220d11454f94757308eafb7" => :sierra
+    sha256 "868d4c181ef4ab65819e3fd16c0a7d669e8efbe21220d11454f94757308eafb7" => :el_capitan
+    sha256 "868d4c181ef4ab65819e3fd16c0a7d669e8efbe21220d11454f94757308eafb7" => :yosemite
+    sha256 "868d4c181ef4ab65819e3fd16c0a7d669e8efbe21220d11454f94757308eafb7" => :mavericks
+  end
+
   resource "dummy_base" do
     url "https://raw.githubusercontent.com/simonwagner/mergepbx/a9bd9d8f4a732eff989ea03fbc0d78f6f6fb594f/test/fixtures/merge/dummy/dummy1/project.pbxproj.base"
     sha256 "d2cf3fdec1b37489e9bc219c82a7ee945c3dfc4672c8b4e89bc08ae0087d6477"
