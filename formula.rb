@@ -1,4 +1,4 @@
-class Mergepbx < Formula
+class mergepbx < Formula
   desc "Merge XCode project files in git"
   homepage "https://github.com/simonwagner/mergepbx"
   url "https://github.com/simonwagner/mergepbx/archive/v0.10.tar.gz"
