@@ -6,7 +6,7 @@ class Carthage < Formula
       :revision => "b03d5739dc0d706d7c4e3f3e972a3452fabc35fb",
       :shallow  => false
   
-  sha256 "--"
+  sha256 "76fcda41f22758574224fcdea967a06261aadcae7010adf0552e149a480329b9"
 
   depends_on :xcode => ["10.0", :build]
 
