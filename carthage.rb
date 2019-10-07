@@ -5,11 +5,8 @@ class Carthage < Formula
       :tag      => "0.33.1",
       :revision => "b03d5739dc0d706d7c4e3f3e972a3452fabc35fb",
       :shallow  => false
-
-  bottle do
-    cellar :any_skip_relocation
-    sha256 "7f88034cfbd51439cd45467745ea3b1a21e6eec2cdd8a7eb2a8945382404b5f0" => :high_sierra
-  end
+  
+  sha256 "--"
 
   depends_on :xcode => ["10.0", :build]
 
