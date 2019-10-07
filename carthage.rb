@@ -3,10 +3,10 @@ class Carthage < Formula
   homepage "https://github.com/Carthage/Carthage"
   url "https://github.com/ismetanin/Carthage.git",
       :tag      => "0.33.1",
-      :revision => "b03d5739dc0d706d7c4e3f3e972a3452fabc35fb",
+      :revision => "b23f106f8120edb50b717948feb3af2cfe5dd924",
       :shallow  => false
   
-  sha256 "76fcda41f22758574224fcdea967a06261aadcae7010adf0552e149a480329b9"
+  sha256 "8f7980e815d0255c9d239e7a1d1b42dabf34a49e2948fc3bb30b60264adc6727"
 
   depends_on :xcode => ["10.0", :build]
 
